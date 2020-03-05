@@ -1,0 +1,2 @@
+# ZoomViewDemo
+本demo实现了单指平移，双指缩放和旋转的view，内部包含的view也会跟着一起变化

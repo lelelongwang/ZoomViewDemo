@@ -102,6 +102,9 @@ public class ZoomView extends RelativeLayout {
             case MotionEvent.ACTION_UP:
             case MotionEvent.ACTION_POINTER_UP:
                 moveType = 0;
+                break;
+            default:
+                break;
         }
         return super.onTouchEvent(event);
     }
